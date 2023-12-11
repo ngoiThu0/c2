@@ -1,0 +1,25 @@
+﻿  Server_Side.c
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(32,1): warning C4005: 'ERROR': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wingdi.h(118,1): message : see previous definition of 'ERROR'
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(151,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(262,18): warning C4244: '=': conversion from 'DWORD' to 'BYTE', possible loss of data
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(348,25): warning C4133: 'function': incompatible types - from 'WCHAR [1025]' to 'BYTE *'
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(393,24): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(560,44): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(544,10): warning C4101: 'spawnStatus': unreferenced local variable
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(593,18): warning C4244: '=': conversion from 'DWORD' to 'BYTE', possible loss of data
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(628,38): warning C4047: 'function': 'PWSTR' differs in levels of indirection from 'WCHAR (*)[1025]'
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(628,38): warning C4024: 'PathCchRemoveFileSpec': different types for formal and actual parameter 1
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(661,9): warning C4047: 'function': 'DWORD' differs in levels of indirection from 'void *'
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(661,9): warning C4024: 'CreateFileW': different types for formal and actual parameter 3
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(641,63): warning C4267: 'initializing': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(781,45): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(885,9): warning C4002: too many arguments for function-like macro invocation 'ERROR'
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(903,9): warning C4002: too many arguments for function-like macro invocation 'ERROR'
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(914,9): warning C4002: too many arguments for function-like macro invocation 'ERROR'
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(1232,26): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'SOCKET'
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(1232,26): message : consider using '%lld' in the format string
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(1232,26): message : consider using '%Id' in the format string
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(1232,26): message : consider using '%I64d' in the format string
+D:\2022-2023\Project\Malware-TCM\Malware\Communication\Server_Side.c(1257,10): warning C4101: 'recvbuf': unreferenced local variable
+  Communication.vcxproj -> D:\2022-2023\Project\Malware-TCM\Malware\x64\Debug\Server.exe
